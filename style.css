@@ -432,9 +432,20 @@ footer .menu ul {
     left: 40px;
   }
 
+  .menu{
+    flex-direction: column;
+  }
+
   footer .menu ul {
     margin-left: 5px;
     margin-right: 5px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  footer .menu{
+    border: none;
   }
 }
 
